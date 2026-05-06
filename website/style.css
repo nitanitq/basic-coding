@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Chewy&family=Coiny&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif+JP:wght@200..900&family=Oleo+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&family=Sniglet&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  padding: 0;
+}
+
+
+.header {
+  background-color: #ebc5c5;
+  height: 60px;
+  border: 1px solid #3c3c3c;
+}
+
+.header-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  height: 100%;
+}
+
+.navbar {
+  margin-right: auto;
+}
+
+.logo {
+  color: palevioletred;
+  font-size: 30px;
+  margin-left: -10px;
+  font-family: "Oleo Script", system-ui;
+}
+
+ul {
+  float: left;
+  display: flex;
+  margin-left: 14%;
+  list-style: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  transition: .3s ease;
+}
+
+ul li a:hover {
+  color: white;
+}
+
+
+.wrapper {
+  width: 57%;
+  max-width: 1000px; 
+  margin: 0px auto;
+  background-color: rgb(255, 255, 255);
+  padding: 20px auto;
+}
+
+.title {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 22px
+}
+
+h1 {
+   font-family: "Merriweather", serif;
+}
+
+h2 {
+   font-family: "Merriweather", serif;
+}
+
+h3 {
+   font-family: "Merriweather", serif;
+}
+
+
+.main-visual{
+align-items: center;
+}
+
+
+img {
+  display: block;
+  margin: auto;
+  align-items: center;
+  width: 850px;
+}
+
+#toc {
+  outline: 1px solid black;
+  padding: 15px;
+  width: 815px;
+  margin: 20px auto; 
+}
+
+.content {
+  border: 2px solid blue;
+  padding: 20px;
+}
+
+.section {
+  border: 2px solid orange;
+  padding: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
