@@ -3,7 +3,11 @@
 .body {
     margin: 0;
     padding: 0;
-    background-color: skyblue;
+    background-image: url("awan.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
@@ -24,7 +28,7 @@
 
 .container { 
     flex: 1;
-    background-color: #838d99;
+    background-color: rgb(167, 215, 255);
     padding: 10px;
     margin: auto;
     width: 700px;
@@ -35,6 +39,7 @@
     margin-bottom: 50px;
     margin-top: 50px;
     text-align: center;
+    border: 2px solid #3c3c3c;
 }
 
 .container a {
